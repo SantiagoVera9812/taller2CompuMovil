@@ -1,8 +1,8 @@
 package com.example.taller2
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.taller2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.osmap.setOnClickListener{
-            startActivity(Intent(this, OsmapActivity::class.java))
+            startActivity(Intent(this, MapActivity::class.java))
         }
     }
 }
